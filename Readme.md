@@ -1,6 +1,18 @@
 # 🚀 Project Overview
 
-This project includes Terraform configuration files for managing infrastructure, along with supporting files for handling state, variables, and deletions.
+This project automates the provisioning of AWS infrastructure using Terraform. It sets up an S3 bucket for static website hosting with versioning, public access settings, and automated file uploads. Additionally, it includes configurations for managing Terraform state, variables, and object deletions.
+
+## 📚 Topics Involved
+
+1. **Terraform Basics** ⚙️ – Writing and managing Terraform configuration files to define cloud infrastructure.
+2. **AWS S3 Bucket Management** 🪣 – Creating, configuring, and managing Amazon S3 buckets for static website hosting.
+3. **S3 Versioning and Ownership Controls** 🔄👑 – Enabling versioning for object storage and managing ownership policies.
+4. **Public Access and Website Configuration** 🌐🔓 – Configuring public access settings and defining website behavior for S3-hosted sites.
+5. **Terraform Providers and Variables** 🎛️ – Setting up the AWS provider and managing configurations using variables.
+6. **State Management and Git Ignore Best Practices** 🛑 – Handling Terraform state files and ensuring proper version control.
+7. **Automated File Uploads** 📤 – Using local-exec provisioners to upload content to an S3 bucket.
+8. **Object Deletion Management** 🗑️ – Managing file deletions in an S3 bucket using JSON configuration.
+9. **Terraform Execution Workflow** 🚀 – Running Terraform commands for initialization, planning, applying, and destroying infrastructure.
 
 ## 📂 Files Overview
 
